@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Evan's blog",
+      title: "yofeu's blog",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -69,8 +69,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '页面',
-        link: '/ui/',
+        text: '其他',
+        link: '/other/',
+        items: [
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+        ],
+      },
+      {
+        text: '项目',
+        link: '/project/',
         items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
@@ -87,6 +95,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
+        text: '计划',
+        link: '/plan/',
+        items: [
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+        ],
+      },
+      {
         text: '更多',
         link: '/more/',
         items: [
@@ -97,7 +113,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '友情链接', link: '/friends/' },
         ],
       },
-      { text: '关于', link: '/about/' },
+      // { text: '关于', link: '/about/' },
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -209,8 +225,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
-        link: 'https://github.com/xugaoyi'
+        name: 'yofeu',
+        link: 'https://github.com/yofeu'
       }
     },
 
